@@ -91,10 +91,14 @@ header a {
   padding-bottom: 70px;
 }
 .banner > div:last-child > div > div {
-  width: 190px;
+  flex: 1 1 0;
+  max-width: 190px;
+  min-width: 0;
   text-align: center;
 }
 .banner img {
+  max-width: 100%;
+  height: auto;
   border-radius: 50%;
   margin-bottom: 14px;
 }
@@ -151,13 +155,15 @@ header a {
 }
 .videos > div {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
   max-width: 1040px;
+  padding: 0 20px;
 }
 .videos > div > div {
-  width: 232px;
+  flex: 1 1 0;
+  max-width: 232px;
+  min-width: 0;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
