@@ -1,0 +1,74 @@
+/* Layout (Flexbox) */
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Colors, fonts and borders */
+body {
+  background-color: #f4f6fb;
+  color: #1f2933;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+header {
+  background-color: #1b2a49;
+  padding: 10px 20px;
+}
+header a {
+  color: #ffffff;
+}
+header a:hover {
+  color: #ffd166;
+}
+.logo {
+  color: #ffd166;
+}
+article {
+  background-color: #ffffff;
+  padding: 20px 30px;
+}
+article h1 {
+  color: #1b2a49;
+  border-bottom: 3px solid #ffd166;
+  padding-bottom: 8px;
+}
+article h2 {
+  color: #33507a;
+}
+article h3 {
+  color: #5c7aa8;
+}
+article a {
+  color: #2364aa;
+}
+blockquote {
+  margin: 0;
+}
+aside {
+  background-color: #e8edf7;
+  border-left: 2px solid #c3cde0;
+  padding: 20px;
+  font-style: italic;
+}
+footer {
+  background-color: #1b2a49;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+}
+footer a {
+  color: #ffd166;
+}
